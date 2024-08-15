@@ -12,3 +12,21 @@ pip install -r requirments.txt
 ```
 python -m main.py
 ```
+## Музыка
+На GitHub отсутствует музыка, разместите её в папке music. Названия должны быть вида "{category}{id}.mp3", где category - один из типов музыки:
+```day, dungeon, city, tavern, combat, night, winter, death```; id - номер в списке от 1 до n, где n - количество файлов с музыкой данного типа. Все категории должны присутствовать.<br>
+Структура может выглядеть вот так:
+```
+music
+|-day1.mp3
+|-day2.mp3
+|-dungeon1.mp3
+|-city1.mp3
+|-city2.mp3
+|...
+|-tavern3.mp3
+|-tavern4.mp3
+cogs
+|-dnd.py
+audio.py
+...
